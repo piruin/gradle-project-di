@@ -1,0 +1,11 @@
+dependencies {
+    compile project(":merchant")
+}
+
+jar {
+    manifest {
+        attributes 'Main-Class': 'me.piruin.fruity.player.MainKt'
+    }
+
+    from { configurations.compile.collect { it.isDirectory() ? it : zipTree(it) } }
+}

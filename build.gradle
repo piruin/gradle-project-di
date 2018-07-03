@@ -24,7 +24,7 @@ subprojects {
     }
 
     dependencies {
-        compile "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version"
+        compile "org.jetbrains.kotlin:kotlin-stdlib-jdk8:$kotlin_version"
     }
 
     compileKotlin { kotlinOptions.jvmTarget = "1.8" }

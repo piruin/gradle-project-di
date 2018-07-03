@@ -1,3 +1,5 @@
 rootProject.name = 'fruity'
-include 'app'
-
+include 'player'
+include 'merchant'
+include 'berry'
+include 'cranberry'

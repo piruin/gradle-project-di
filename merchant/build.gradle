@@ -1,0 +1,5 @@
+
+dependencies {
+    compile project(":berry")
+    implementation project(":cranberry")
+}
